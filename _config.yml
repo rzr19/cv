@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Vlăduț Gheorghe
 title: IT Operations Specialist
-email: brett.h@email.co.uk
+email: vn_gheorghe@outlook.com
 website: https://www.linkedin.com/in/vngheorghe/
 
 # Dark Mode (true/false/never)
@@ -67,7 +67,7 @@ content:
         sub_title: Technical Team Lead
         caption: March 2020 - Present
         description: | # this will include new lines to allow paragraphs
-          Technical Lead for a team of 5 AMS consultants with diverse skillsets and different responsibilities.
+          <mark>Technical Lead</mark> for a team of 5 AMS consultants with diverse skillsets and different responsibilities.
 
           Technical Trainer on networking Linux/bash, Oracle/SQL, docker and web apps support.
           
@@ -77,9 +77,9 @@ content:
 
           Frequent deployments and infra migrations e.g Oracle 12c->19c, RHEL6->7, AIX->RHEL7, Oracle->SQL Server.
           
-          Implemented CI/custom monitoring with git, artifactory, bamboo, flyway, bash, PL/SQL & python.
+          Implemented CI/custom monitoring with git, artifactory, bamboo, flyway, <mark>bash</mark>, PL/SQL & python.
           
-          Pushing daily for a Kanban method and DevOps mentality in an ITIL environment.
+          Pushing daily for a Kanban method and <mark>DevOps</mark> mentality in an ITIL environment.
 
       - layout: left
       - title: Emerson
@@ -88,14 +88,14 @@ content:
         caption: July 2019 - March 2020
         description: | # this will include new lines to allow paragraphs
           In-house system administration for the <mark>Oracle</mark> EBS R12 clusters runtime in an ITIL framework.
-          
-          Offered support to the project team for the UC4 Automation Engine v11.2.6 -> v12.3 upgrade
         
-          <mark>(AE)</mark> Automation Engine configurations and PL/SQL updates as per business needs.
+          UC4 Automation Engine configurations and PL/SQL updates as per business needs.
+
+          Offered support to the project team for the UC4 Automation Engine v11.2.6 -> v12.3 upgrade
 
           Routine tasks for code migrations, error analysis, upgrades, load balancing, archiving.
 
-          Implemented a number of process and OS level monitoring workflows with bash, SQL, AE scripts and Tableau.
+          Implemented a number of app/OS level monitoring workflows with <mark>bash</mark>, SQL, AE scripts and Tableau.
       
       - layout: left
       - title: Steelcase
@@ -109,7 +109,7 @@ content:
           
           Implemented multiple <mark>SAP PO</mark> data transfer interfaces on SFTP, HTTPS and a custom one with [AWS S3](https://github.com/rzr19/shells/blob/master/sap-xi-s3-integration.sh).
 
-          Developed a POC invoice creation microservice that used <mark>python</mark> regexes and Docker to convert PDFs into SAP FI entries.
+          Developed a POC invoice creation microservice on <mark>python</mark> regexes and Docker to convert PDFs into SAP FI entries.
 
           Blockchain POC administrator for Hyperledger Fabric, node.js scripts and a few <mark>Docker</mark> containers.
       
