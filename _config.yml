@@ -56,52 +56,53 @@ about_content: | # this will include new lines to allow paragraphs
   My hands-on knowledge revolves around app support, with an emphasis on servers and containers, SAP ECC/PO/Solman, Oracle/MsSQL/MySQL, Docker, Azure, ServiceNow, and many Linux runtime tools.
   I have skills for light development/debugging in ABAP and Java plus a ton of know-how for automation in <mark>bash</mark>, <mark>PL/SQL</mark>, python and Ansible.
 
-- title: Experience # Title for the section
-  layout: list # Type of content section (list/text)
-  content:
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Endpoint Protector
+        link: https://www.cososys.com/
+        # link_text: boringcompany.com
+        sub_title: Linux Technical Support
+        caption: 2014 - 2015
+        description: | # this will include new lines to allow paragraphs
+          Support via phone, email, JIRA, OTRS tickets for US/EMEA customers and sales leads.
+          Command line work and scripts to troubleshoot Ubuntu LTS servers running php and mysqld.
+          App support including installations and configurations of security policies.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
     - layout: left
-      title: Endpoint Protector
-      link: https://www.cososys.com/
-      # link_text: boringcompany.com
-      sub_title: Linux Technical Support
-      caption: 2014 - 2015
+    - title: Other certifications and/or  courses I attended
+      dates: 2014 - present
       description: | # this will include new lines to allow paragraphs
-        Support via phone, email, JIRA, OTRS tickets for US/EMEA customers and sales leads.
-        Command line work and scripts to troubleshoot Ubuntu LTS servers running php and mysqld.
-        App support including installations and configurations of security policies.
+        AZ-104 Azure Cloud Administrator (2020)
+        BIT400 SAP Process Integration (2018)
+        LPIC-2 Linux Certified Engineer (2017)
+        E2E100 SAP Root Cause Analysis (2016)
+        ITILv3 Foundations Certificate (2016)
+        Cambridge English Advanced C1 (2014)
+      title: Babeș-Bolyai University
+      caption: 2014 - 2017
+      sub_title: BSc in Business Information Systems (attended)
+      description: | # this will include new lines to allow paragraphs
+        Got exposure to all the basic technologies and more.
+      title: Babeș-Bolyai University
+      caption: 2010 - 2013
+      sub_title: BSc in Psychology
+      description: | # this will include new lines to allow paragraphs
+        Graduated with a paper graded 10 on team performance in organisational psychology.
 
-- title: Education # Title for the section
-  layout: list # Type of content section (list/text)
-  content:
-  - layout: left
-  - title: Other certifications and/or  courses I attended
-    dates: 2014 - present
-    description: | # this will include new lines to allow paragraphs
-      AZ-104 Azure Cloud Administrator (2020)
-      BIT400 SAP Process Integration (2018)
-      LPIC-2 Linux Certified Engineer (2017)
-      E2E100 SAP Root Cause Analysis (2016)
-      ITILv3 Foundations Certificate (2016)
-      Cambridge English Advanced C1 (2014)
-    title: Babeș-Bolyai University
-    caption: 2014 - 2017
-    sub_title: BSc in Business Information Systems (attended)
-    description: | # this will include new lines to allow paragraphs
-      Got exposure to all the basic technologies and more.
-    title: Babeș-Bolyai University
-    caption: 2010 - 2013
-    sub_title: BSc in Psychology
-    description: | # this will include new lines to allow paragraphs
-      Graduated with a paper graded 10 on team performance in organisational psychology.
-
-- title: A Little More About Me
-  layout: text
-  content: | # this will include new lines to allow paragraphs
-    Alongside my interests in technology, some of my other interests and hobbies are:
-    - Working out
-    - Reading books
-    - Photo editing
-    - reddit and e-communities
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in technology, some of my other interests and hobbies are:
+      - Working out
+      - Reading books
+      - Photo editing
+      - reddit and e-communities
 
 # Footer
 footer_show_references: true
