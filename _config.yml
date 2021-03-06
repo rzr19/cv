@@ -84,12 +84,14 @@ content:
         E2E100 SAP Root Cause Analysis (2016)
         ITILv3 Foundations Certificate (2016)
         Cambridge English Advanced C1 (2014)
-      title: Babeș-Bolyai University
+    - layout: left
+    - title: Babeș-Bolyai University
       caption: 2014 - 2017
       sub_title: BSc in Business Information Systems (attended)
       description: | # this will include new lines to allow paragraphs
         Got exposure to all the basic technologies and more.
-      title: Babeș-Bolyai University
+    - layout: left
+    - title: Babeș-Bolyai University
       caption: 2010 - 2013
       sub_title: BSc in Psychology
       description: | # this will include new lines to allow paragraphs
