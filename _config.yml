@@ -58,8 +58,77 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Experience # Title for the section
+
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+      - company: NTT Data Romania
+        link: https://ro.nttdata.com/
+        sub_title: Technical Team Lead
+        caption: March 2020 - Present
+          Technical Lead for a team of 5 AMS consultants with diverse skillsets and different responsibilities.
+
+          Technical Trainer on networking Linux/bash, Oracle/SQL, docker and web apps support.
+          
+          2nd/3rd lvl support for business users and development teams on a financial web apps cluster.
+
+          Tickets, changes, projects and Java bug fixes on Linux/Windows VMs & Oracle/SQL Server DBs.
+
+          Frequent deployments and infra migrations e.g Oracle 12c->19c, RHEL6->7, AIX->RHEL7, Oracle->SQL Server.
+          
+          Implemented CI/custom monitoring with git, artifactory, bamboo, flyway, bash, PL/SQL & python.
+          
+          Pushing daily for a Kanban method and DevOps mentality in an ITIL environment.
+
+      - company: Emerson
+        link: https://www.emerson.com/en-us
+        sub_title: Oracle System Administrator
+        caption: July 2019 - March 2020
+          In-house system administration for the <mark>Oracle</mark> EBS R12 clusters runtime in an ITIL framework.
+          
+          Offered support to the project team for the UC4 Automation Engine v11.2.6 -> v12.3 upgrade
+        
+          <mark>(AE)</mark> Automation Engine configurations and PL/SQL updates as per business needs.
+
+          Routine tasks for code migrations, error analysis, upgrades, load balancing, archiving.
+
+          Implemented a number of process and OS level monitoring workflows with bash, SQL, AE scripts and Tableau.
+
+      - company: Steelcase
+        link: https://www.steelcase.com/
+        sub_title: SAP Applications Engineer
+        caption: Sept 2017 - May 2019
+          In-house application support and development for the HCM landscape and the business users in a Scrum framework.
+    
+          Worked on break/fixes and enhancements to <mark>ABAP</mark>/SQL, Dynpros, iViews, bash, CA Automation jobs.
+          
+          Implemented multiple <mark>SAP PO</mark> data transfer interfaces on SFTP, HTTPS and a custom one with [AWS S3](https://github.com/rzr19/shells/blob/master/sap-xi-s3-integration.sh).
+
+          Developed a POC invoice creation microservice that used <mark>python</mark> regexes and Docker to convert PDFs into SAP FI entries.
+
+          Blockchain POC administrator for Hyperledger Fabric, node.js scripts and a few <mark>Docker</mark> containers.
+
+        title: Betfair
+        link: https://www.betfair.ro/
+        sub_title: Linux System Administrator
+        caption: May 2017 - Jul 2017
+          Agile in-house systems administration and support for the DevOps toolset applications and deployment pipelines.
+
+          Worked a bit with bash, python, Ansible, Jenkins/GoCD for CI/CD and Gitlab, Jenkins and Artifactory in OpenStack.
+
+      - layout: left
+        title: accesa
+        link: https://www.accesa.eu/
+        sub_title: Junior SAP System Administrator
+        caption: 2015 - 2017
+          <mark>SAP</mark> service desk and system administration for customers' systems from US/EMEA/APAC in an ITIL framework.
+    
+          Got exposure to SAP HR, XI, enterprise batch jobs management, Oracle DB, Solution Manager and Nagios.
+    
+          Worked on an in-house accesa project for a sandbox SAP infrastructure running Proxmox and Linux VMs on Dell R710s.
+    
+          Got a Linux [LPIC-1](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000357227/bjm42xnqfx) certification in May 2016 and an [LPIC-2](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000357227/bjm42xnqfx) in Mar 2017.
+
       - layout: left
         title: Endpoint Protector
         link: https://www.cososys.com/
@@ -68,7 +137,9 @@ content:
         caption: 2014 - 2015
         description: | # this will include new lines to allow paragraphs
           Support via phone, email, JIRA, OTRS tickets for US/EMEA customers and sales leads.
+
           Command line work and scripts to troubleshoot Ubuntu LTS servers running php and mysqld.
+
           App support including installations and configurations of security policies.
 
   - title: Education # Title for the section
@@ -78,12 +149,12 @@ content:
     - title: Other certifications and/or  courses I attended
       dates: 2014 - present
       description: | # this will include new lines to allow paragraphs
-        AZ-104 Azure Cloud Administrator (2020)
-        BIT400 SAP Process Integration (2018)
-        LPIC-2 Linux Certified Engineer (2017)
-        E2E100 SAP Root Cause Analysis (2016)
-        ITILv3 Foundations Certificate (2016)
-        Cambridge English Advanced C1 (2014)
+        - AZ-104 Azure Cloud Administrator (2020)
+        - BIT400 SAP Process Integration (2018)
+        - LPIC-2 Linux Certified Engineer (2017)
+        - E2E100 SAP Root Cause Analysis (2016)
+        - ITILv3 Foundations Certificate (2016)
+        - Cambridge English Advanced C1 (2014)
     - layout: left
     - title: Babeș-Bolyai University
       caption: 2014 - 2017
