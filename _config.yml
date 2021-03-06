@@ -62,10 +62,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-      - company: NTT Data Romania
+      - title: NTT Data Romania
         link: https://ro.nttdata.com/
         sub_title: Technical Team Lead
         caption: March 2020 - Present
+        description: | # this will include new lines to allow paragraphs
           Technical Lead for a team of 5 AMS consultants with diverse skillsets and different responsibilities.
 
           Technical Trainer on networking Linux/bash, Oracle/SQL, docker and web apps support.
@@ -80,10 +81,12 @@ content:
           
           Pushing daily for a Kanban method and DevOps mentality in an ITIL environment.
 
-      - company: Emerson
+      - layout: left
+      - title: Emerson
         link: https://www.emerson.com/en-us
         sub_title: Oracle System Administrator
         caption: July 2019 - March 2020
+        description: | # this will include new lines to allow paragraphs
           In-house system administration for the <mark>Oracle</mark> EBS R12 clusters runtime in an ITIL framework.
           
           Offered support to the project team for the UC4 Automation Engine v11.2.6 -> v12.3 upgrade
@@ -93,11 +96,13 @@ content:
           Routine tasks for code migrations, error analysis, upgrades, load balancing, archiving.
 
           Implemented a number of process and OS level monitoring workflows with bash, SQL, AE scripts and Tableau.
-
-      - company: Steelcase
+      
+      - layout: left
+      - title: Steelcase
         link: https://www.steelcase.com/
         sub_title: SAP Applications Engineer
         caption: Sept 2017 - May 2019
+        description: | # this will include new lines to allow paragraphs
           In-house application support and development for the HCM landscape and the business users in a Scrum framework.
     
           Worked on break/fixes and enhancements to <mark>ABAP</mark>/SQL, Dynpros, iViews, bash, CA Automation jobs.
@@ -107,11 +112,13 @@ content:
           Developed a POC invoice creation microservice that used <mark>python</mark> regexes and Docker to convert PDFs into SAP FI entries.
 
           Blockchain POC administrator for Hyperledger Fabric, node.js scripts and a few <mark>Docker</mark> containers.
-
+      
+      - layout: left
         title: Betfair
         link: https://www.betfair.ro/
         sub_title: Linux System Administrator
         caption: May 2017 - Jul 2017
+        description: | # this will include new lines to allow paragraphs
           Agile in-house systems administration and support for the DevOps toolset applications and deployment pipelines.
 
           Worked a bit with bash, python, Ansible, Jenkins/GoCD for CI/CD and Gitlab, Jenkins and Artifactory in OpenStack.
@@ -121,6 +128,7 @@ content:
         link: https://www.accesa.eu/
         sub_title: Junior SAP System Administrator
         caption: 2015 - 2017
+        description: | # this will include new lines to allow paragraphs
           <mark>SAP</mark> service desk and system administration for customers' systems from US/EMEA/APAC in an ITIL framework.
     
           Got exposure to SAP HR, XI, enterprise batch jobs management, Oracle DB, Solution Manager and Nagios.
