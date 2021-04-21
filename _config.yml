@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Vlăduț Gheorghe
-title: IT Operations Specialist
+title: DevOps Specialist
 email: vn_gheorghe@outlook.com
 website: https://www.linkedin.com/in/vngheorghe/
 
@@ -53,8 +53,8 @@ about_content: | # this will include new lines to allow paragraphs
   I have 8+ years of work experience that taught me <mark>patience</mark>, <mark>collaboration</mark>, <mark>humbleness</mark> and <mark>the bigger picture</mark>.
   The positions I have covered so far ranged from service desk and technical support to system administration and SAP software development.
 
-  My hands-on knowledge revolves around app support, with an emphasis on servers and containers, SAP ECC/PO/Solman, Oracle/MsSQL/MySQL, Docker, Azure, ServiceNow, and many Linux runtime tools.
-  I have skills for light development/debugging in ABAP and Java plus a ton of know-how for automation in <mark>bash</mark>, <mark>PL/SQL</mark>, python and Ansible.
+  My hands-on knowledge revolves around web apps support, with an emphasis on servers and containers, SAP ECC/PO/Solman, Oracle/MsSQL/MySQL, Docker, Azure, ServiceNow, and many Linux runtime tools.
+  I have skills for light development/debugging in Java/python plus a ton of know-how for automation in <mark>bash</mark>, <mark>PL/SQL</mark> and Ansible.
 
 content:
   - title: Experience # Title for the section
@@ -69,13 +69,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           <mark>Technical Lead</mark> for a team of 5 AMS consultants with diverse skillsets and different responsibilities.
 
-          Technical Trainer on networking Linux/bash, Oracle/SQL, docker and web apps support.
+          Technical Mentor for CS students on IT networking, Linux/bash, Oracle/SQL, docker and web apps support.
           
           2nd/3rd lvl support for business users and development teams on a financial web apps cluster.
 
           Tickets, changes, projects and Java bug fixes on Linux/Windows VMs & Oracle/SQL Server DBs.
 
-          Frequent deployments and infra migrations e.g Oracle 12c->19c, RHEL6->7, AIX->RHEL7, Oracle->SQL Server.
+          Frequent Java deployments and some migrations (Oracle 12c->19c, RHEL6->7, AIX->RHEL7, Oracle->SQL Server).
           
           Implemented CI/custom monitoring with git, artifactory, bamboo, flyway, <mark>bash</mark>, PL/SQL & python.
           
@@ -157,6 +157,8 @@ content:
     - title: Other certifications and/or  courses I attended
       dates: 2014 - present
       description: | # this will include new lines to allow paragraphs
+        - DP-300 Azure Database Administrator (2021)
+        - AZ-400 Azure DevOps Engineer (2021)
         - AZ-104 Azure Cloud Administrator (2020)
         - BIT400 SAP Process Integration (2018)
         - LPIC-2 Linux Certified Engineer (2017)
