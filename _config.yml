@@ -1,0 +1,219 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Vlăduț Gheorghe
+title: DevOps
+email: vn_gheorghe@outlook.com
+phone: +4 0755 488 705
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: facespics
+github_username:  rzr19
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+facebook_username: vladut.ng
+# flickr_username: jekyll
+instagram_username: vladut.ng
+linkedin_username: vladutng
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+
+#- title: itsgoingto.be
+# icon: fas fa-globe
+# url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/hello.png
+about_content: | # this will include new lines to allow paragraphs
+  Hello! I go also by Vlad and I am a DevOps Specialist from Cluj-Napoca. 
+  
+  I have 10+ years of IT experience that taught me <mark>patience</mark>, <mark>collaboration</mark>, and <mark>the bigger picture</mark>.
+
+  A list of some more or less up-to-date industry certifications I passed is available at the link below: 
+  
+  https://www.credly.com/users/vladut-gheorghe/badges
+  
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+      - title: Senior DevOps Engineer
+        sub_title: Finastra
+        link: https://www.finastra.com/
+        caption: 2024 - present
+        description: | # this will include new lines to allow paragraphs
+          Leading an <mark>Azure DevOps</mark> to <mark>Github</mark> transformation for 200+ repos and 6000+ Azure pipelines
+          
+          Tech stack: pwsh, yaml, python, bash, Github Actions, .NET apps, Windows microservices
+          
+      - layout: left
+      - title: DevOps Engineer
+        sub_title: Endpoint Protector by CoSoSyS (now part of Netwrix)
+        link: https://www.endpointprotector.com/
+        caption: 2022 - 2024
+        description: | # this will include new lines to allow paragraphs          
+          BAU deployments in dev/test/poc/prod environments and other tasks such as monitoring/escalations
+          
+          Onboarded multiple products (web/client) and processes from manual or semi-automated to full CI/CD in ADO
+          
+          Created the backbone for self-hosted build agents runtime around docker, <mark>pwsh</mark>, AWS ECS, Azure ACI
+          
+          Created a CloudFormation stack delivery framework combining pwsh for AWS, python, ADO and AWS SSM
+          
+          Contributed to the flagship enterprise product ADO CI/CD with bash, pwsh, python, <mark>terraform</mark> and on POCs
+          
+          Tech stack: <mark>AWS</mark>, Azure with Azure DevOps and packer, docker, terraform, pwsh, bash, python, golang
+
+      - layout: left
+      - title: DevOps Engineer
+        sub_title: NTT Data Romania
+        link: https://ro.nttdata.com/
+        caption: 2020 - 2022
+        description: | # this will include new lines to allow paragraphs
+          <mark>Technical Lead</mark> for a team of 5 support consultants for 2nd/3rd level Applications Management
+
+          Technical mentor to 50+ CS Students in European Project MySMIS 131587 on Linux, RDBMSs, Azure, docker & webapps
+          
+          DevOps for a Data Lake project built natively on Azure with Azure DevOps, powershell and bash
+          
+          AMO Academy Trainer in 2021 on Oracle SQL curricula for a group of 12 Junior Consultants
+          
+          Passed the exams for <mark>Azure DevOps Engineer</mark>, Azure Solutions Architect and the <mark>CKA</mark>
+
+      - layout: left
+      - title: Oracle System Administrator
+        sub_title: Emerson
+        link: https://www.emerson.com/en-us
+        caption: 2019 - 2020
+        description: | # this will include new lines to allow paragraphs
+          In-house system administration for the <mark>Oracle</mark> EBS R12 clusters runtime in an ITIL framework
+        
+          UC4 Automation Engine configurations and PL/SQL updates as per business needs
+
+          Routine tasks for code migrations, error analysis, upgrades, load balancing, archiving
+
+          Implemented a number of monitoring workflows with <mark>bash</mark>, SQL, AE scripts and Tableau
+      
+      - layout: left
+      - title: SAP Applications Engineer
+        sub_title: Steelcase
+        link: https://www.steelcase.com/
+        caption: 2017 - 2019
+        description: | # this will include new lines to allow paragraphs
+          In-house application support and development for the HCM landscape and the business users in a Scrum framework
+    
+          Worked on break/fixes and enhancements to <mark>ABAP</mark>/SQL, Dynpros, iViews, bash, CA Automation jobs
+          
+          Implemented multiple <mark>SAP PO</mark> data transfer interfaces on SFTP, HTTPS and custom ones written in bash
+
+          Developed a POC invoice creation microservice on <mark>python</mark> regexes and Docker to convert PDFs into SAP FI entries
+
+          Blockchain POC administrator for Hyperledger Fabric, node.js scripts and a few <mark>Docker</mark> containers
+
+      - layout: left
+        title: Junior SAP System Administrator      
+        sub_title: accesa
+        link: https://www.accesa.eu/
+        caption: 2015 - 2017
+        description: | # this will include new lines to allow paragraphs
+          <mark>SAP</mark> service desk and system administration for customers' systems from US/EMEA/APAC in an ITIL framework
+    
+          Got exposure to SAP HR, XI, enterprise batch jobs management, Oracle DB, Solution Manager and Nagios
+    
+          Worked on an in-house accesa project for a sandbox SAP infrastructure running Proxmox and Linux VMs on Dell R710s
+    
+          Got a Linux [LPIC-1](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000357227/bjm42xnqfx) certification in May 2016 and an [LPIC-2](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000357227/bjm42xnqfx) in Mar 2017
+
+      - layout: left
+        title: Linux Technical Support
+        sub_title: Endpoint Protector by CoSoSyS
+        link: https://www.endpointprotector.com/
+        # link_text: boringcompany.com
+        caption: 2014 - 2015
+        description: | # this will include new lines to allow paragraphs
+          Support via phone, email, JIRA, OTRS tickets for US/EMEA customers and sales leads.
+
+          Command line work and scripts to troubleshoot Ubuntu LTS servers running php and mysqld.
+
+          Application support including installations and configurations of security policies.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+    - layout: left
+    - title: Other certifications and/or  courses I attended
+      dates: 2014 - present
+      description: | # this will include new lines to allow paragraphs
+        - SAA-C03 AWS Solutions Architect - Associate (2023)
+        - AZ-700 Azure Networks Associate (2022)
+        - Certified Kubernetes Administrator (2021)
+        - AZ-304 Azure Solutions Architect (2021)
+        - AZ-500 Azure Security Associate (2021)
+        - AZ-204 Azure Developer Associate (2021)
+        - DP-300 Azure Database Administrator (2021)
+        - AZ-400 Azure DevOps Engineer (2021)
+        - AZ-104 Azure Cloud Administrator (2020)
+        - BIT400 SAP Process Integration (2018)
+        - LPIC-2 Linux Certified Engineer (2017)
+        - E2E100 SAP Root Cause Analysis (2016)
+        - ITILv3 Foundations Certificate (2016)
+        - Cambridge English Advanced C1 (2014)
+    - layout: left
+    - title: Babeș-Bolyai University
+      caption: 2014 - 2017
+      sub_title: BSc in Business Information Systems (attended)
+      description: | # this will include new lines to allow paragraphs
+        Got exposure to all the basic technologies and more.
+    - layout: left
+    - title: Babeș-Bolyai University
+      caption: 2010 - 2013
+      sub_title: BSc in Psychology
+      description: | # this will include new lines to allow paragraphs
+        Graduated with a paper graded 10 on team performance in organisational psychology.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in technology, some of my other interests and hobbies are:
+      - Working out, running, biking, swimming
+      - Stand-up comedy
+      - reddit and e-communities
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
