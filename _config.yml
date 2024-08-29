@@ -80,7 +80,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Leading an <mark>Azure DevOps</mark> to <mark>Github</mark> migration for 200+ repos / 7000+ pipelines
           
-          Other projects around the lifecycle of North American governmental financial applications
+          Other projects around the lifecycle of North American government financial applications
           
       - layout: left
       - title: DevOps Engineer
