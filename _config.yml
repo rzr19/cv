@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Vlăduț Gheorghe
-title: DevOps
-email: vn_gheorghe@outlook.com
+title: Senior DevOps Engineer
+email: vladutng@outlook.com
 phone: +4 0755 488 705
 
 # Dark Mode (true/false/never)
@@ -55,9 +55,20 @@ about_content: | # this will include new lines to allow paragraphs
 
   A list of some more or less up-to-date industry certifications I passed is available at the link below: 
   
-  https://www.credly.com/users/vladut-gheorghe/badges
+  https://www.credly.com/users/vladutng
   
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+      - title: Senior DevOps Engineer
+        sub_title: The Access Group
+        link: https://www.theaccessgroup.com/
+        caption: 2024 - present
+        description: | # this will include new lines to allow paragraphs
+          DevOps for a large ERP landscape built on Oracle Exadata with Azure, <mark>Azure DevOps</mark>, New Relic, etc.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -67,25 +78,25 @@ content:
         link: https://www.finastra.com/
         caption: 2024 - present
         description: | # this will include new lines to allow paragraphs
-          Leading an <mark>Azure DevOps</mark> to <mark>Github</mark> transformation for 200+ repos and 6000+ Azure pipelines
+          Leading an <mark>Azure DevOps</mark> to <mark>Github</mark> migration for 200+ repos / 7000+ pipelines
           
-          Tech stack: pwsh, yaml, python, bash, Github Actions, .NET apps, Windows microservices
+          Other projects around the lifecycle of North American governmental financial applications
           
       - layout: left
       - title: DevOps Engineer
         sub_title: Endpoint Protector by CoSoSyS (now part of Netwrix)
-        link: https://www.endpointprotector.com/
+        link: https://www.netwrix.com/
         caption: 2022 - 2024
         description: | # this will include new lines to allow paragraphs          
-          BAU deployments in dev/test/poc/prod environments and other tasks such as monitoring/escalations
-          
           Onboarded multiple products (web/client) and processes from manual or semi-automated to full CI/CD in ADO
           
-          Created the backbone for self-hosted build agents runtime around docker, <mark>pwsh</mark>, AWS ECS, Azure ACI
+          Created the backbone for self-hosted build agents runtime around docker, <mark>pwsh</mark>, AWS ECS, Azure Containers
           
           Created a CloudFormation stack delivery framework combining pwsh for AWS, python, ADO and AWS SSM
           
           Contributed to the flagship enterprise product ADO CI/CD with bash, pwsh, python, <mark>terraform</mark> and on POCs
+          
+          BAU deployments in dev/test/poc/prod environments and other tasks such as monitoring/escalations
           
           Tech stack: <mark>AWS</mark>, Azure with Azure DevOps and packer, docker, terraform, pwsh, bash, python, golang
 
@@ -111,7 +122,7 @@ content:
         link: https://www.emerson.com/en-us
         caption: 2019 - 2020
         description: | # this will include new lines to allow paragraphs
-          In-house system administration for the <mark>Oracle</mark> EBS R12 clusters runtime in an ITIL framework
+          System administration for the <mark>Oracle</mark> EBS R12 clusters runtime
         
           UC4 Automation Engine configurations and PL/SQL updates as per business needs
 
@@ -125,7 +136,7 @@ content:
         link: https://www.steelcase.com/
         caption: 2017 - 2019
         description: | # this will include new lines to allow paragraphs
-          In-house application support and development for the HCM landscape and the business users in a Scrum framework
+          Application support and development for the HCM/FI landscape and the business users
     
           Worked on break/fixes and enhancements to <mark>ABAP</mark>/SQL, Dynpros, iViews, bash, CA Automation jobs
           
@@ -166,14 +177,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
     - layout: left
-    - title: Other certifications and/or  courses I attended
+    - title: Other certifications and/or courses I attended
       dates: 2014 - present
       description: | # this will include new lines to allow paragraphs
+        - GitHub Actions Certification (2024)
         - SAA-C03 AWS Solutions Architect - Associate (2023)
-        - AZ-700 Azure Networks Associate (2022)
         - Certified Kubernetes Administrator (2021)
         - AZ-304 Azure Solutions Architect (2021)
-        - AZ-500 Azure Security Associate (2021)
         - AZ-204 Azure Developer Associate (2021)
         - DP-300 Azure Database Administrator (2021)
         - AZ-400 Azure DevOps Engineer (2021)
@@ -200,9 +210,10 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in technology, some of my other interests and hobbies are:
-      - Working out, running, biking, swimming
+      - Working out, MMA, running, biking, swimming
       - Stand-up comedy
       - reddit and e-communities
+      - pepe memes and memes in general
 
 # Footer
 footer_show_references: true
