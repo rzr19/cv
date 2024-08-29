@@ -211,9 +211,9 @@ content:
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in technology, some of my other interests and hobbies are:
       - Working out, MMA, running, biking, swimming
+      - https://www.strava.com/athletes/84496310
       - Stand-up comedy
       - reddit and e-communities
-      - pepe memes and memes in general
 
 # Footer
 footer_show_references: true
