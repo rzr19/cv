@@ -36,7 +36,7 @@ linkedin_username: vladutng
 # about_title: About Me
 about_profile_image: images/hello.png
 about_content: | # this will include new lines to allow paragraphs
-  Hello! I go also by Vlad and I am a DevOps Specialist from Cluj-Napoca. 
+  Hello! I go also by Vlad and I am a DevOps Specialist from Cluj-Napoca, Romania. 
   
   I have 10+ years of IT experience that taught me <mark>patience</mark>, <mark>collaboration</mark>, and <mark>the bigger picture</mark>.
 
@@ -54,7 +54,7 @@ content:
         link: https://www.theaccessgroup.com/
         caption: 2024 - present
         description: | # this will include new lines to allow paragraphs
-          DevOps for a large ERP landscape built on Oracle Exadata with Azure, <mark>Azure DevOps</mark>, New Relic, etc.
+          DevOps for Good People software on Oracle Exadata with Azure, <mark>Azure DevOps</mark>, New Relic, ansible, bash
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
