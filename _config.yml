@@ -50,18 +50,30 @@ content:
     content:
       - layout: left
       - title: Senior DevOps Engineer
+        sub_title: The Access Group
+        link: https://www.theaccessgroup.com/en-gb/
+        caption: 2024 - present
+        description: | # this will include new lines to allow paragraphs
+          Azure DevOps for Oracle Exadata applications and other People software
+          
+          Working daily with Oracle Linux, bash, pwsh, terraform, SQL, docker, NewRelic, ansible
+
+      - layout: left
+      - title: Senior DevOps Engineer
         sub_title: zvoove Group GmbH
         link: https://zvoove.de/
         caption: 2024
-        description: | # this will include new lines to allow paragraphs
-          Short term contract for a legacy migration to native Azure with pipelines, packer, bash, terraform, docker
+        description: |
+          Short term contract for a legacy VM migration to native <mark>Azure</mark> with pipelines, packer, bash, terraform, docker
+          
+          Provided solutions to the best of my ability for moves from gitlab, ubuntu 16.04, ElasticSearch, Kibana, SCVMM, cli ansible
 
       - layout: left
       - title: Senior DevOps Engineer
         sub_title: Finastra
         link: https://www.finastra.com/
-        caption: 2024 - present
-        description: | # this will include new lines to allow paragraphs
+        caption: 2024
+        description: |
           Contract for an <mark>Azure DevOps</mark> to <mark>Github</mark> migration for 200+ repos / 7000+ pipelines
           
           Other projects around the lifecycle of North American government financial applications
@@ -71,7 +83,7 @@ content:
         sub_title: Endpoint Protector by CoSoSyS (now part of Netwrix)
         link: https://www.netwrix.com/
         caption: 2022 - 2024
-        description: | # this will include new lines to allow paragraphs          
+        description: |       
           Onboarded multiple products (web/client) and processes from manual or semi-automated to full CI/CD in ADO
           
           Created the backbone for self-hosted build agents runtime around docker, <mark>pwsh</mark>, AWS ECS, Azure Containers
@@ -89,7 +101,7 @@ content:
         sub_title: NTT Data Romania
         link: https://ro.nttdata.com/
         caption: 2020 - 2022
-        description: | # this will include new lines to allow paragraphs
+        description: |
           <mark>Technical Lead</mark> for a team of 5 support consultants for 2nd/3rd level Applications Management
 
           Technical mentor to 50+ CS Students in European Project MySMIS 131587 on Linux, RDBMSs, Azure, docker & webapps
@@ -105,7 +117,7 @@ content:
         sub_title: Emerson
         link: https://www.emerson.com/en-us
         caption: 2019 - 2020
-        description: | # this will include new lines to allow paragraphs
+        description: |
           System administration for the <mark>Oracle</mark> EBS R12 clusters runtime
         
           UC4 Automation Engine configurations and PL/SQL updates as per business needs
@@ -119,7 +131,7 @@ content:
         sub_title: Steelcase
         link: https://www.steelcase.com/
         caption: 2017 - 2019
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Application support and development for the HCM/FI landscape and the business users
     
           Worked on break/fixes and enhancements to <mark>ABAP</mark>/SQL, Dynpros, iViews, bash, CA Automation jobs
@@ -135,7 +147,7 @@ content:
         sub_title: accesa
         link: https://www.accesa.eu/
         caption: 2015 - 2017
-        description: | # this will include new lines to allow paragraphs
+        description: |
           <mark>SAP</mark> service desk and system administration for customers' systems from US/EMEA/APAC in an ITIL framework
     
           Got exposure to SAP HR, XI, enterprise batch jobs management, Oracle DB, Solution Manager and Nagios
@@ -148,9 +160,8 @@ content:
         title: Linux Technical Support
         sub_title: Endpoint Protector by CoSoSyS
         link: https://www.endpointprotector.com/
-        # link_text: boringcompany.com
         caption: 2014 - 2015
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Support via phone, email, JIRA, OTRS tickets for US/EMEA customers and sales leads.
 
           Command line work and scripts to troubleshoot Ubuntu LTS servers running php and mysqld.
