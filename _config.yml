@@ -50,29 +50,19 @@ content:
     content:
       - layout: left
       - title: Senior DevOps Engineer
-        sub_title: The Access Group
-        link: https://www.theaccessgroup.com/en-gb/
-        caption: 2024 - present
-        description: | # this will include new lines to allow paragraphs
-          Azure DevOps for Oracle Exadata applications and other People software
-          
-          Working daily with Oracle Linux, bash, pwsh, terraform, SQL, docker, NewRelic, ansible
-
-      - layout: left
-      - title: Senior DevOps Engineer
         sub_title: zvoove Group GmbH
         link: https://zvoove.de/
         caption: 2024
         description: |
           Short term contract for a legacy VM migration to native <mark>Azure</mark> with pipelines, packer, bash, terraform, docker
           
-          Provided solutions to the best of my ability for moves from gitlab, ubuntu 16.04, ElasticSearch, Kibana, SCVMM, cli ansible
+          Provided solutions to the best of my ability for lift & shift from gitlab, ubuntu 16.04, ElasticSearch, Kibana, SCVMM, cli ansible
 
       - layout: left
       - title: Senior DevOps Engineer
         sub_title: Finastra
         link: https://www.finastra.com/
-        caption: 2024
+        caption: 2024 - present
         description: |
           Contract for an <mark>Azure DevOps</mark> to <mark>Github</mark> migration for 200+ repos / 7000+ pipelines
           
